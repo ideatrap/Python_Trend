@@ -1,0 +1,5 @@
+import quandl
+data = quandl.get("GOOG/NYSE_SPY")
+
+data.to_csv("SPY.txt")
+
